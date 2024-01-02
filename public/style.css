@@ -1,0 +1,160 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    margin:0;
+}
+li{
+    list-style: none;
+}
+h2{
+   
+    font-size: 2rem;
+    font-weight: normal;
+}
+.top-container{
+    height: 600px;
+    background-color: #fffcf4;
+    padding-top:80px;
+}
+.introduction{
+    background-color: #F9F7F7; 
+    height: 550px;
+}
+.projects{
+    height: 350px;
+    background-color: #FAF6F0;
+    /* margin-top: 30px; */
+}
+.main-text{
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-family: 'Sevillana', cursive;
+    margin-top: 50px;
+}
+.second-main-text{
+    position: relative;
+    font-family: 'IBM Plex Serif', serif;
+    display: flex;
+    justify-content: center;
+}
+.programmer-main-man{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+.programming-goals{
+    height: 100px;
+}
+.pro-1{
+    position: absolute;
+    max-width: 15%;
+    height: 150px;
+    left:12rem    
+}
+.pro-2{
+    max-width: 15%;
+    height: 150px;
+    position: absolute;
+    left: 80rem;
+    bottom: 5rem;
+}
+/* .introductionH{
+    color: black;
+    margin-left: 45%;
+    position: relative;
+    top: 1rem;
+    font-size: 2rem;
+} */
+.intro-container{
+    margin-left: 45%;
+    position: relative;
+    top:1rem;
+    
+}
+
+.basetext{
+    font-size:2rem;
+}
+.intro-text{
+    display: flex;
+    font-size: 1.3rem;
+    width: 800px;
+    margin-left: -270px; 
+}
+.intro-features{
+    position: relative;
+    display: flex;
+    margin-top: 5rem;
+    text-align: center;
+}
+.intro-list{
+    display:flex;
+    justify-content: flex-start;
+}
+.intro{
+    position: relative;
+    margin-left: -250px;
+}
+
+.intro-list-text{
+    font-size: 1.3rem;
+}
+.jakeTheDog-container{
+    display:relative;
+    margin-left: 550px;
+    margin-top: -280px;
+    
+}
+.jakeTheDog{
+    border-radius: 50%;
+    margin-left:50px;
+}
+.jake-text{
+    color: black;  
+    display: absolute;
+    font-size: 1.2rem;
+}
+.projects-container{
+    margin-left: 45%;
+    position: relative;
+    top:1rem;
+}
+.projects-base{
+    font-size:2rem;
+}
+.projectstext{
+    width: 900px;
+    margin-left: -300px;
+}
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    margin-left: -340px;
+     
+}
+
+.footerSection{
+    position: relative;
+    top:2rem;
+    background-color: #F1EFEF;
+    height: 150px;
+} 
+
+.footer ul{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer a{
+    color:black;
+    font-size: 1rem;
+}
+
+.footer-text{
+    text-align: center;
+}
