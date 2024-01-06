@@ -4,11 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./public/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
 </head>
 <body>
+    <header class="header">
+        <div class="header-container">
+            <a href="./index.html"><p>Home</p></a>
+            <a href="./public/projects.html" target="_BLANK"> <p>Projects</p></a>
+            <a href="./public/aboutme.html" target="_BLANK"><p>About</p></a>
+            <a href="javascript: document.body.scrollIntoView(false);" class="header-text-contact">Contact</a>
+        </div>
+        <p class="over-search-bar-text">You can search in google from here :)</p>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button id="searchButton">Search</button>
+        </div>
+    </header>
     <section>
         <!--    Main Section    -->
         <div class="top-container">
@@ -78,17 +93,18 @@
         <!--   Footer Section   -->
         <footer class="footer">
             <ul>
-                <li><a href="#" target="_BLANK">Home</a></li>
+                <li><a href="./index.html"><strong>Home</strong></a></li>
                 <li> | </li>
-                <li><a href="./public/aboutme.html" target="_BLANK">About Me</a></li>
+                <li><a href="./public/aboutme.html" target="_BLANK"><strong>About Me</strong></a></li>
                 <li> | </li>
-                <li><a href="./public/projects.html" target="_BLANK">Projects</a></li>
+                <li><a href="./public/projects.html" target="_BLANK"><strong>Projects</strong></a></li>
             </ul>
             <br/>
+            <p class="footer-text3">You can contact me via <a href="mailto: baranerayabakan526@gmail.com">mail!</a></p>
             <p class="footer-text">This webpage made without any third-party design framework.</p>
            <p class="footer-text"> &copy; Ruzgar Erayabakan, All Rights Reserved. </p>
         </footer>
     </section>
-
+    <script src="./public/index.js"></script>
 </body>
 </html>
