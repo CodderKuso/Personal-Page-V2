@@ -1,7 +1,13 @@
 a{
     text-decoration: none;
 }
-
+.header{
+    background-color: #202020;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 3;
+}
 body{
     margin:0;
 }
@@ -118,7 +124,7 @@ h2{
     font-size: 1.2rem;
 }
 .projects-container{
-    margin-left: 45%;
+    margin-left: 46%;
     position: relative;
     top:1rem;
 }
@@ -140,7 +146,7 @@ h2{
     position: relative;
     top:2rem;
     background-color: #F1EFEF;
-    height: 150px;
+    height: 180px;
 } 
 
 .footer ul{
@@ -157,4 +163,69 @@ h2{
 
 .footer-text{
     text-align: center;
+    position: relative;
+    bottom: 0px
 }
+
+.header-container{
+    overflow: hidden;
+    font-family: 'Barlow', sans-serif;
+    display:flex;
+    position: relative;
+    margin-left: 55px;
+    flex-direction: row;
+    color: white;
+    gap: 250px;
+    font-size: 1.5rem;
+}
+.footer-text3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.footer-text3 a{
+    margin-left: 4.2px;
+    color: seagreen;
+}
+.header-container >     a{
+    
+    color: white;
+    z-index: 5;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    bottom: 102px;
+    right: 20px;
+}
+
+.over-search-bar-text{
+    color: white;
+    position: relative;
+    margin-left: 82%;
+    bottom: 90px;
+}
+
+.header-text-contact{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
